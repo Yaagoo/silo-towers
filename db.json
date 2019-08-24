@@ -1,0 +1,60 @@
+{
+  "towers": [
+    {
+      "id": 1,
+      "title": "1",
+      "value": 100,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 2,
+      "title": "2",
+      "value": 214,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 3,
+      "title": "3",
+      "value": 323,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 4,
+      "title": "4",
+      "value": 523,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 5,
+      "title": "5",
+      "value": 823,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 6,
+      "title": "6",
+      "value": 923,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 7,
+      "title": "7",
+      "value": 1123,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "id": 8,
+      "title": "8",
+      "value": 15,
+      "minValue": 50,
+      "maxValue": 1000
+    }
+  ]
+}

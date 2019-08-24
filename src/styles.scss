@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #333333;
+    font-family: Roboto;
+    color: white;
+}
+h1{
+    font-size: 2vw;
+    display:inline-block;
+}
+p{
+    font-size: 1vw;
+    margin: 0;
+}
+.o{
+    border-bottom: 0.2vw solid #21b149;
+}
+
+.o1{
+    border-bottom: 0.2vw solid #e5ff00;
+}
+svg{
+.a,.m,.n, .n1{fill:none;}
+.b{fill:#cbcbcb;}
+.c{clip-path:url(#a);}
+.d{fill:url(#b);}
+.e{clip-path:url(#c);}
+.f{fill:url(#d);}
+.g{clip-path:url(#e);}
+.h{fill:url(#f);}
+.i{clip-path:url(#g);}
+.j{fill:url(#h);}
+.k{fill:url(#i);}
+.l{fill:#21b249;opacity:0.5;isolation:isolate;}
+.l1{fill:#e5ff00;opacity:0.5;isolation:isolate;}
+.m{stroke:#8b959f;stroke-miterlimit:22.93;stroke-width:4px;}
+.n{stroke:#21b149;stroke-miterlimit:10;stroke-width:3px;}
+.n1{stroke:#e5ff00;stroke-miterlimit:10;stroke-width:3px;}
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eltower{
+    width: 10vw;
+    min-width: 100px;
+    padding:2vw;
+    text-align: center;
+    flex-wrap: 1;
+}

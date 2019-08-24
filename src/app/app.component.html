@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="eltower" *ngFor='let tower of towers$'>
+        <p>Уровень карналита<br> в силосной башне №{{tower.id}}</p>
+        <h1 [ngClass]="tower.maxValue>tower.value > tower.minValue ? 'o' : 'o1'">{{tower.value/tower.maxValue | percent}}</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 154.6 495.8">
+          <defs>
+              <clipPath id="a" transform="translate(-2534.72 -284.47)">
+                  <rect class="a" x="2543.42" y="297.87" width="137.3" height="91.9" />
+              </clipPath>
+              <linearGradient id="b" x1="2546.74" y1="584.06" x2="2680.71" y2="584.07" gradientTransform="matrix(1, 0, 0, -1, -2534.72, 643.42)" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#616166" />
+                  <stop offset="0.21" stop-color="#9b9b9b" />
+                  <stop offset="1" stop-color="#48484f" />
+              </linearGradient>
+              <clipPath id="c" transform="translate(-2534.72 -284.47)">
+                  <rect class="a" x="2543.42" y="399.37" width="137.3" height="91.9" />
+              </clipPath>
+              <linearGradient id="d" x1="2546.74" y1="482.57" x2="2680.71" y2="482.57" xlink:href="#b" />
+              <clipPath id="e" transform="translate(-2534.72 -284.47)">
+                  <rect class="a" x="2543.42" y="500.77" width="137.3" height="91.9" />
+              </clipPath>
+              <linearGradient id="f" x1="2546.74" y1="381.17" x2="2680.71" y2="381.17" xlink:href="#b" />
+              <clipPath id="g" transform="translate(-2534.72 -284.47)">
+                  <rect class="a" x="2543.42" y="602.27" width="137.3" height="91.9" />
+              </clipPath>
+              <linearGradient id="h" x1="2546.74" y1="279.67" x2="2680.71" y2="279.67" xlink:href="#b" />
+              <linearGradient id="i" x1="2543.42" y1="185.92" x2="2680.72" y2="185.92" xlink:href="#b" />
+          </defs>
+          <title>Silo towers5</title>
+          <rect class="b" y="6.3" width="154.6" height="4.3" />
+          <g class="c">
+              <rect class="d" x="8.7" y="13.4" width="137.3" height="91.9" />
+          </g>
+          <rect class="b" y="412.1" width="154.6" height="4.3" />
+          <g class="e">
+              <rect class="f" x="8.7" y="114.9" width="137.3" height="91.9" />
+          </g>
+          <g class="g">
+              <rect class="h" x="8.7" y="216.3" width="137.3" height="91.9" />
+          </g>
+          <g class="i">
+              <rect class="j" x="8.7" y="317.8" width="137.3" height="91.9" />
+          </g>
+          <polygon class="k" points="68.6 495.8 8.7 419.2 146 419.2 86 495.8 68.6 495.8" />
+          <rect [ngClass]="tower.maxValue>tower.value > tower.minValue ? 'l' : 'l1'" x="18.9" y="407.1" width="118.5" [ngStyle]="{'height.px': 1 > (tower.value/tower.maxValue) ? (tower.value/tower.maxValue*greenrec) : greenrec}" transform="rotate(180 78.1 407.1)"/>
+          <rect class="b" y="209.2" width="154.6" height="4.3" />
+          <rect class="b" y="310.6" width="154.6" height="4.3" />
+          <rect class="b" y="107.7" width="154.6" height="4.3" />
+          <line class="m" x1="53.8" y1="2" x2="100.9" y2="2" />
+          <path [ngClass]="tower.maxValue>tower.value > tower.minValue ? 'n' : 'n1'" d="M2610.72,763h-50.5a10,10,0,0,1-10-10v-23.9a10,10,0,0,1,10-10h50.5a10,10,0,0,1,10,10V753A10,10,0,0,1,2610.72,763Z" transform="translate(-2534.72 -284.47)" />
+        </svg>
+        <p>Масса карналита</p>
+      <h1 [ngClass]="tower.maxValue>tower.value > tower.minValue ? 'o' : 'o1'">{{tower.value}}</h1>
+    </div>
+</div>
